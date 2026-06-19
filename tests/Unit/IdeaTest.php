@@ -1,9 +1,7 @@
 <?php
 
 use App\Models\Idea;
-use App\Models\Step;
 use App\Models\User;
-use Illuminate\Database\Eloquent\Collection;
 
 test('it belongs to a user', function () {
     $idea = Idea::factory()->create();
